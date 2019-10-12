@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 04, 2019 at 11:29 AM
+-- Generation Time: Oct 12, 2019 at 10:43 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.1.32
 
@@ -315,7 +315,7 @@ INSERT INTO `instructures` (`id_ins`, `nama_ins`) VALUES
 (28, 'M. Imron Rosyadi'),
 (29, 'Yukke Yuliani Hamdani'),
 (30, 'Rahmat Taufik, MA'),
-(31, 'Azwar Mudzakir Ridwan'),
+(31, 'Azwar Mudzakir'),
 (32, 'Rexsy Rustiana Suparman'),
 (33, 'Yogi Ramdani'),
 (34, 'widodo dwi ismail aziz'),
@@ -324,7 +324,7 @@ INSERT INTO `instructures` (`id_ins`, `nama_ins`) VALUES
 (37, 'Abdurahman'),
 (38, 'Acep Ahman Hidayat'),
 (39, 'Wildan Budiawan Zulfikar'),
-(40, 'Eva Nurlatifah'),
+(40, 'Dina Lugina'),
 (41, 'Yuni Kulsum'),
 (42, 'Ridwan Ramdani'),
 (43, 'Adi Nurachman'),
@@ -376,7 +376,7 @@ INSERT INTO `maps` (`id`, `nama_kelas`, `nama_ins`, `sesi`, `ruang`, `hari`) VAL
 (24, 'C2', 'Fitri Puspitasari Budiana', '13.00-14.20', '2.2', 'Senin'),
 (25, 'C3', 'Acep Ahman Hidayat', '13.00-14.20', '2.3', 'Senin'),
 (26, 'C4', 'Yogi Saputra', '13.00-14.20', '2.4', 'Senin'),
-(27, 'C5', 'Jumadi', '13.00-14.20', '3.1', 'Senin'),
+(27, 'C5', 'Abdurahman', '13.00-14.20', '3.1', 'Senin'),
 (28, 'C6', 'Furiansyah Dipraja', '13.00-14.20', '3.2', 'Senin'),
 (29, 'C7', 'Sulaiman Syah Jamal', '13.00-14.20', '3.3', 'Senin'),
 (30, 'C8', 'Adi Nurachman', '13.00-14.20', '3.4', 'Senin'),
@@ -387,7 +387,7 @@ INSERT INTO `maps` (`id`, `nama_kelas`, `nama_ins`, `sesi`, `ruang`, `hari`) VAL
 (35, 'D2', 'Fitri Puspitasari Budiana', '14.20-16.00', '2.2', 'Senin'),
 (36, 'D3', 'Yukke Yuliani Hamdani', '14.20-16.00', '2.3', 'Senin'),
 (37, 'D4', 'Yogi Saputra', '14.20-16.00', '2.4', 'Senin'),
-(38, 'D5', 'Jumadi', '14.20-16.00', '3.1', 'Senin'),
+(38, 'D5', 'Dina Lugina', '14.20-16.00', '3.1', 'Senin'),
 (39, 'D6', 'Furiansyah Dipraja', '14.20-16.00', '3.2', 'Senin'),
 (40, 'D7', 'Abdurahman', '14.20-16.00', '3.3', 'Senin'),
 (41, 'D8', 'Adi Nurachman', '14.20-16.00', '3.4', 'Senin'),
@@ -397,7 +397,7 @@ INSERT INTO `maps` (`id`, `nama_kelas`, `nama_ins`, `sesi`, `ruang`, `hari`) VAL
 (45, 'E1', 'Ali Rahman', '08.40-10.20', '2.1', 'Selasa'),
 (46, 'E2', 'Neng Mastiani', '08.40-10.20', '2.2', 'Selasa'),
 (47, 'E3', 'Sulaiman Syah Jamal', '08.40-10.20', '2.3', 'Selasa'),
-(48, 'E4', 'Yogi Saputra', '08.40-10.20', '2.4', 'Selasa'),
+(48, 'E4', 'Yukke Yuliani Hamdani', '08.40-10.20', '2.4', 'Selasa'),
 (49, 'E5', 'Fadli Emsa Zamani', '08.40-10.20', '3.1', 'Selasa'),
 (50, 'E6', 'M. Muhardi', '08.40-10.20', '3.2', 'Selasa'),
 (51, 'E7', 'Wildan Budiawan Zulfikar', '08.40-10.20', '3.3', 'Selasa'),
@@ -427,10 +427,10 @@ INSERT INTO `maps` (`id`, `nama_kelas`, `nama_ins`, `sesi`, `ruang`, `hari`) VAL
 (75, 'G9', 'Acep Ahman Hidayat', '13.00-14.20', '3.5', 'Selasa'),
 (76, 'G10', 'Rizal Maulana Hasby', '13.00-14.20', '3.6', 'Selasa'),
 (77, 'G11', 'Furiansyah Dipraja', '13.00-14.20', '3.7', 'Selasa'),
-(78, 'H1', 'Yukke Yuliani Hamdani', '14.20-16.00', '2.1', 'Selasa'),
+(78, 'H1', 'Yogi Saputra', '14.20-16.00', '2.1', 'Selasa'),
 (79, 'H2', 'Fitri Puspitasari Budiana', '14.20-16.00', '2.2', 'Selasa'),
 (80, 'H3', 'Ichsan Taufik', '14.20-16.00', '2.3', 'Selasa'),
-(81, 'H4', 'Abdurahman', '14.20-16.00', '2.4', 'Selasa'),
+(81, 'H4', 'Jumadi', '14.20-16.00', '2.4', 'Selasa'),
 (82, 'H5', 'Fauzi Azzamahsyari', '14.20-16.00', '3.1', 'Selasa'),
 (83, 'H6', 'M. Imron Rosyadi', '14.20-16.00', '3.2', 'Selasa'),
 (84, 'H7', 'Reginal Putra Pratama', '14.20-16.00', '3.3', 'Selasa'),
@@ -495,7 +495,7 @@ INSERT INTO `maps` (`id`, `nama_kelas`, `nama_ins`, `sesi`, `ruang`, `hari`) VAL
 (143, 'M11', 'Reginal Putra Pratama', '08.40-10.20', '3.7', 'Kamis'),
 (144, 'N1', 'Neng Mastiani', '10.20-12.00', '2.1', 'Kamis'),
 (145, 'N2', 'widodo dwi ismail aziz', '10.20-12.00', '2.2', 'Kamis'),
-(146, 'N3', 'Eva Nurlatifah', '10.20-12.00', '2.3', 'Kamis'),
+(146, 'N3', 'Jumadi', '10.20-12.00', '2.3', 'Kamis'),
 (147, 'N4', 'Rexsy Rustiana Suparman', '10.20-12.00', '2.4', 'Kamis'),
 (148, 'N5', 'Afriansyah Fadillah', '10.20-12.00', '3.1', 'Kamis'),
 (149, 'N6', 'Bambang Yudi Nugraha', '10.20-12.00', '3.2', 'Kamis'),
@@ -539,7 +539,7 @@ INSERT INTO `maps` (`id`, `nama_kelas`, `nama_ins`, `sesi`, `ruang`, `hari`) VAL
 (187, 'Q11', 'Raka Fajar Salinggih', '08.40-10.20', '3.7', 'Jum\'at'),
 (188, 'R1', 'Jumadi', '10.20-12.00', '2.1', 'Jum\'at'),
 (189, 'R2', 'widodo dwi ismail aziz', '10.20-12.00', '2.2', 'Jum\'at'),
-(190, 'R3', 'Eva Nurlatifah', '10.20-12.00', '2.3', 'Jum\'at'),
+(190, 'R3', 'Dina Lugina', '10.20-12.00', '2.3', 'Jum\'at'),
 (191, 'R4', 'Yuni Kulsum', '10.20-12.00', '2.4', 'Jum\'at'),
 (192, 'R5', 'Yogi Ramdani', '10.20-12.00', '3.1', 'Jum\'at'),
 (193, 'R6', 'Salma Afwa Nisa', '10.20-12.00', '3.2', 'Jum\'at'),
