@@ -23,7 +23,7 @@
             ?>
                 <div class="col-md-2">
                     <form method='POST' action='days.php'>
-                        <input type="hidden" name='hari'>
+                        <input type="hidden" name='hari' value='<?php  echo $d2['nama_hari'];?>'>
                         <input type='submit' class="btn btn-default btn-block" value='<?php  echo $d2['nama_hari'];?>'>
                     </form>
                 </div>
@@ -40,7 +40,7 @@
                         while($d = mysqli_fetch_array($data)){
                     ?>
                         <p><?php echo $no++.'. '.$d['nama_ins']; ?></p>
-                        <?php echo 'Assalamualaikum. Diberitahukan kembali untuk Jadwal Pelatihan ICT Hari '.$hari.', 14 Oktober 2019 mendatang.</br>Berikut kami lampirkan jadwal instruktur terkait: </br></br>'?>
+                        <?php echo 'Assalamualaikum. Diberitahukan kembali untuk Jadwal Pelatihan ICT Hari '.$hari.' besok.</br>Berikut kami lampirkan jadwal instruktur terkait: </br></br>'?>
                         <?php 
                             $no2 = 1;
                             $data2 = mysqli_query($koneksi,"select * from maps where nama_ins = '".$d['nama_ins']."' AND hari = '".$hari."';");

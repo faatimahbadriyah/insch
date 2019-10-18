@@ -24,7 +24,7 @@
             ?>
                 <div class="col-md-2">
                     <form method='POST' action='days.php'>
-                        <input type="hidden" name='hari'>
+                        <input type="hidden" name='hari'value='<?php  echo $d2['nama_hari'];?>
                         <input type='submit' class="btn btn-default btn-block" value='<?php  echo $d2['nama_hari'];?>'>
                     </form>
                 </div>
